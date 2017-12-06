@@ -12,6 +12,7 @@ repositories {
 dependencies {
     testCompile (
             'org.spockframework:spock-core:1.1-groovy-2.4-rc-4',
-            'org.fluentlenium:fluentlenium-spock:3.4.1'
+            'org.fluentlenium:fluentlenium-spock:3.4.1',
+            'org.seleniumhq.selenium:selenium-chrome-driver:3.5.3'
     )
 }
